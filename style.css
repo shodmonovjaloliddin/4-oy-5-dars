@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #2B2B2B;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-section {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+
+.head a {
+  margin-right: 30px;
+  color: white;
+  font-size: 16px;
+}
+
+.head button {
+  width: 152px;
+  height: 60px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  border-radius: 20px;
+  background: #A259FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.top-section {
+  margin-top: 100px;
+}
+
+.top-section h1 {
+  color: white;
+  font-size: 51px;
+}
+
+.top-section p {
+  color: white;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.market {
+  margin-left: 95px;
+}
+
+.favorite {
+  margin-top: 30px;
+  width: 1050px;
+  height: 60px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.favorite input {
+  margin-left: 25px;
+  margin-top: 19px;
+  width: 900px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+}
+
+.exe {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.collet {
+  width: 505px;
+  height: 60px;
+}/*# sourceMappingURL=style.css.map */
