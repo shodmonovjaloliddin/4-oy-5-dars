@@ -73,4 +73,128 @@ a{
 .collet{
     width: 505px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    font-size: 22px;
+    gap: 10px;
+    padding-left: 202px;
+}
+.collet img{
+    width: 50px;
+    height: 32px;
+}
+.collet2{
+    width: 505px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    gap: 10px;
+    padding-left: 202px;
+}
+
+
+.center-section{
+    margin-top: 60px;
+}
+.big-ice{
+    display: flex;
+    gap: 30px;
+    padding-left: 85px;
+    margin-top: 30px;
+}
+.mag{
+    color: white;
+    font-size: 22px;
+}
+.shroon{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    align-items: center;
+}
+.shroon p{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.footer-section{
+    margin-top: 120px;
+    display: flex;
+    gap: 140px;
+    padding-left: 70px;
+}
+.relory :nth-child(2){
+    margin-top: 20px;
+    max-width: 230px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+.relory :nth-child(3){
+    margin-top: 20px;
+    color: #CCCCCC;
+    font-size: 16px;
+}
+.relory :nth-child(4){
+    margin-top: 10px;
+}
+.relory2 :nth-child(1){
+    color: white;
+    font-size: 22px;
+}
+.relory2 p{
+    margin-top: 15px;
+    color: #CCCCCC;
+    font-size: 16px ;
+}
+
+.relory3 h3{
+    color: white;
+    font-size: 22px;
+}
+.relory3 p{
+    margin-top: 20px    ;
+    color: #CCCCCC;
+    max-width: 300px;
+}
+.footer-input{
+    width: 420px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-input button{
+    width: 179px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    gap: 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #A259FF;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.4s;
+}
+.footer-input button[type="submit"]:hover{
+    background-color: orangered;
+    color: white;
+}
+.footer-input button[type="submit"]:active{
+    transform: scale(0.95);
+}
+.footer-input input{
+    background-color: #fff;
+    border: none;
+    margin-left: 20px;
+    font-size: 16px;
 }
